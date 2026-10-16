@@ -1,0 +1,27 @@
+{
+  "name": "tgp",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ivory00000/hello-js#readme",
+  "bugs": {
+    "url": "https://github.com/ivory00000/hello-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivory00000/hello-js.git"
+  },
+  "license": "ISC",
+  "author": "Ivory",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
